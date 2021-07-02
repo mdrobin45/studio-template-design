@@ -141,7 +141,8 @@ body{
     color: #fff;
 }
 .row.servItems {
-    margin-top: 80px;
+    display: flex;
+    padding: 65px 0px;
 }
 .serviceSec.container .row.servItems .col i:nth-child(1){
     font-size: 50px;
@@ -152,4 +153,18 @@ body{
 }
 .serviceSec.container .row.servItems .col i:nth-child(4){
     color: #fff;
+}
+.col.LeftSec {
+    float: left;
+    width: 50%;
+}
+.col.RightSec {
+    overflow: hidden;
+    width: 50%;
+}
+.abtSec .LeftSec h2 {
+    font-size: 45px;
+}
+.abtSec p {
+    padding-right: 4rem;
 }
