@@ -4,7 +4,7 @@ body{
     padding: 0;
 }
 .container {
-    width: 1220px;
+    width: 95%;
     margin: auto;
 }
 .topHeader .logoSec {
@@ -91,12 +91,11 @@ body{
 .contentR .formR form input {
     display: block;
     width: 75%;
-    padding: 0 10px;
+    padding: 17px 10px;
     border: none;
     border-radius: 5px;
     margin: 20px auto;
     background: #F3F3F3;
-    height: 50px;
 }
 .contentR .formR p {
     width: 86%;
@@ -110,4 +109,47 @@ body{
     height: 75px;
     width: 80%;
     font-size: 20px;
+}
+.serviceSec.container .col span {
+    font-size: 50px;
+    font-weight: bolder;
+    display: block;
+    text-align: center;
+    padding-top: 3rem;
+}
+.serviceSec.container .row.servItems .col:nth-child(1),
+.serviceSec.container .row.servItems .col:nth-child(2), 
+.serviceSec.container .row.servItems .col:nth-child(3) {
+    float: left;
+    overflow: hidden;
+    width: 30%;
+    transition: 0.5s;
+    border-radius: 5px;
+    padding: 40px 5px;
+    margin: 0px 10px;
+    text-align: center;
+}
+.serviceSec.container .row.servItems .col:nth-child(1):hover,
+.serviceSec.container .row.servItems .col:nth-child(2):hover, 
+.serviceSec.container .row.servItems .col:nth-child(3):hover{
+    color: #fff;
+    background-color: #bd4ed4;
+}
+.serviceSec.container .row.servItems .col:nth-child(1):hover i:nth-child(1),
+.serviceSec.container .row.servItems .col:nth-child(2):hover i:nth-child(1),
+.serviceSec.container .row.servItems .col:nth-child(3):hover i:nth-child(1){
+    color: #fff;
+}
+.row.servItems {
+    margin-top: 80px;
+}
+.serviceSec.container .row.servItems .col i:nth-child(1){
+    font-size: 50px;
+    color:#bd4ed4;
+}
+.serviceSec.container .row.servItems .col i:nth-child(4){
+    font-size: 40px;
+}
+.serviceSec.container .row.servItems .col i:nth-child(4){
+    color: #fff;
 }
